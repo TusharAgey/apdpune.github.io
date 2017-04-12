@@ -309,7 +309,7 @@ a:focus {
 	border-bottom: 2px solid #9b9b9b;
 	background: #fff;
 	text-align: center;
-	position: relative;
+	position: static;
 	display: block;
 }
 
@@ -331,7 +331,7 @@ a:focus {
     left: 50%;
     margin: 0 0 0 -15px;
     pointer-events: none;
-    position: absolute;
+    position: static;
     top: auto;
     width: 0;
 }
@@ -339,12 +339,12 @@ a:focus {
 .team-extended{
 	background: none repeat scroll 0 0 #131313;
     left: 0;
-    margin-top: 25px;
+    margin-top: 5px;
     padding: 20px;
     overflow: hidden;
     position: absolute;
     text-align: left;
-    top: auto;
+    top: fixed;
     width: 100%;
 }
 
@@ -1382,10 +1382,9 @@ RESPONSIVE
 #tab6 { color: #333333;
 	display:inline-block; 
        margin-left: 60px; }
-/*#tab7 { color: #333333;
-	display:inline-block; 
-       margin-left: 100px; }
-#tab8 { color: #333333;
+#tab {  
+       margin-left: 50px; }
+/*#tab8 { color: #333333;
 	display:inline-block; 
        margin-left: 80px; }
 #tab9 { color: #333333;
@@ -1396,4 +1395,7 @@ RESPONSIVE
        margin-left: 40px; }
 #tab11 { color: #333333;
 	display:inline-block; 
-       margin-left: 20px; }*/
+       margin-left: 20px; }
+
+
+*/
